@@ -20,10 +20,10 @@ import com.example.ud5_ejemplo1.ui.PrimeraPantalla
 import com.example.ud5_ejemplo1.ui.SegundaPantalla
 import com.example.ud5_ejemplo1.ui.theme.Ud5_Ejemplo1Theme
 
-enum class Pantallas(@StringRes val titulo: Int) {
-    Inicio(titulo = R.string.pantalla_inicio),
-    Pantalla1(titulo = R.string.pantalla1),
-    Pantalla2(titulo = R.string.pantalla2)
+enum class Pantallas {
+    Inicio,
+    Pantalla1,
+    Pantalla2
 }
 
 class MainActivity : ComponentActivity() {
